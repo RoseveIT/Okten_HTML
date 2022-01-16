@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #5e5b5b;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.block{
+    width: 75%;
+    height: 600px;
+}
+.aside{
+    width: 25%;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+.inner{
+    display: flex;
+
+}
+.box{
+    margin: 2px;
+    width: 34%;
+    height: 300px;
+    background-color: lime;
+}
