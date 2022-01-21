@@ -1,0 +1,59 @@
+.one{
+    height: 100px;
+    background-color: #fdc428;
+}
+.two{
+    height: 300px;
+    background-color: #5e5b5b;
+}
+.three{
+    height: 200px;
+    background-color: deepskyblue;
+}
+.four_five{
+    height: 400px;
+    display: flex;
+}
+.four{
+    width: 70%;
+    background-color: yellowgreen;
+}
+.five{
+    width: 30%;
+    background-color: tomato;
+}
+.six{
+    height: 200px;
+    background-color: mediumseagreen;
+}
+.number{
+    display: flex;
+}
+.visi{
+    width: 70%;
+}
+.hide{
+    width: 30%;
+    background-color: blueviolet;
+}
+@media screen and (max-width: 992px) {
+    .four_five{
+        display: flex;
+        flex-direction: column;
+    }
+    .four{
+        height: 300px;
+        width: 100%;
+    }
+    .five{
+        height: 200px;
+        width: 100%;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+    }
+    .visi{
+        width: 100%;
+    }
+}
