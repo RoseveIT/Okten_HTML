@@ -1,0 +1,26 @@
+.A{
+    height: 200px;
+    background-color: #5e5b5b;
+}
+.BC{
+    display: flex;
+
+}
+.B{
+    width: 70%;
+    background-color: #fdc428;
+    height: 200px;
+}
+.C{
+    width: 30%;
+    background-color: blueviolet;
+    height: 200px;
+}
+@media screen and (max-width: 992px){
+    .BC{
+        flex-direction: column;
+    }
+    .B, .C{
+        width: 100%;
+    }
+}

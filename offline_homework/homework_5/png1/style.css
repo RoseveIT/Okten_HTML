@@ -1,0 +1,85 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.logo_header{
+    display: flex;
+    column-gap: 10px;
+    height: 100px;
+}
+.center_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo{
+    width: 20%;
+    background-color: #5e5b5b;
+}
+.header{
+    width: 80%;
+    background-color: #5e5b5b;
+}
+.block{
+    display: flex;
+    column-gap: 10px;
+    height: 600px;
+}
+.aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.nav{
+    height: 400px;
+    background-color: #5e5b5b;
+}
+.store{
+    height: 100px;
+    background-color: #5e5b5b;
+}
+.tools{
+    height: 100px;
+    background-color: #5e5b5b;
+}
+.main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bath_ad{
+    height: 200px;
+    display: flex;
+    column-gap: 10px;
+}
+.bath{
+    width: 70%;
+    background-color: #5e5b5b;
+}
+.ad{
+    width: 30%;
+    background-color: #5e5b5b;
+}
+.types_releted{
+    height: 400px;
+    display: flex;
+    column-gap: 10px;
+}
+.types{
+    width: 70%;
+    background-color: #5e5b5b;
+}
+.releted{
+    width: 30%;
+    background-color: #5e5b5b;
+}
+.footer{
+    height: 100px;
+    background-color: #5e5b5b;
+}
+@media screen and(max-width: 992px) {
+}

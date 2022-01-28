@@ -1,0 +1,42 @@
+.A{
+    height: 200px;
+    background-color: #fdc428;
+}
+.BF{
+    display: flex;
+}
+.BC{
+    width: 70%;
+}
+.B{
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    width: 33%;
+    height: 200px;
+    background-color: yellow;
+}
+.CD {
+    display: flex;
+    justify-content: space-between;
+}
+.C{
+    width: 33%;
+    height: 200px;
+    background-color: blue;
+}
+.F{
+    width: 33%;
+    height: 400px;
+    background-color: tomato;
+}
+@media screen and (max-width: 992px){
+    .BF{
+        flex-direction: column;
+    }
+    .BC, .F{
+        width: 100%;
+    }
+
+}
