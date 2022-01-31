@@ -2,7 +2,11 @@
     font-family:sans-serif;
 }
 body{
+    margin: 0 auto;
+}
+.wrap{
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     width: 100%;
@@ -141,8 +145,8 @@ h1{
     align-items: center;
 }
 .block3_text{
-    margin-left: 50px;
-    width: 558px;
+
+    width: 527px;
 }
 .block3_text>h3{
     font-size: 34px;
@@ -179,7 +183,7 @@ h1{
     height: 550px;
     background-color: blueviolet;
     border-radius: 10px;
-    margin-left: 220px;
+    margin-left: 190px;
     display: flex;
     align-items: center;
 }
@@ -364,7 +368,7 @@ h1{
     width: 480px;
     background-color: #F2EDE7;
     padding-top: 80px;
-    padding-left: 170px;
+    padding-left: 150px;
     border-radius: 10px 0 0 10px;
 }
 
@@ -391,7 +395,7 @@ h1{
     margin-bottom: 140px;
 }
 .block10_2{
-    width: 794px;
+    width: 600px;
     background-color: #F9C600;
     border-radius: 0 10px 10px 0;
 }
